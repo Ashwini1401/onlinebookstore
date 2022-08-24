@@ -1,6 +1,6 @@
 pipeline {
     agent {
-		customeWorkspace '/mnt/pipeline/'
+		customWorkspace '/mnt/pipeline/'
 	      }
 	stages {
 	  stage ('Build') {
