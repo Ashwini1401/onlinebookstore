@@ -1,6 +1,7 @@
 pipeline {
     agent {
-		customWorkspace '/mnt/pipeline/'
+	     label any
+	     customWorkspace '/mnt/pipeline/'
 	      }
 	stages {
 	  stage ('Build') {
